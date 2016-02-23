@@ -1,6 +1,5 @@
 #include<stdio.h>
-
-long factorial(int);
+#include "calculate_process.h"
 
 main(int argc, char *argv[])
 {
@@ -15,13 +14,4 @@ main(int argc, char *argv[])
 	return 0;
 }
 
-long factorial (int n)
-{
-	int c;
-	long result = 1;
-	
-		for(c=1; c<=n; c++) 
-			result = result * c;
-			
-			return result;
-}
+
